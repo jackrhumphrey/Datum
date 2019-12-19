@@ -1,38 +1,119 @@
-.App {
+.technology,
+.team,
+.contact {
+  display: flow-root;
+}
+
+.technology {
+  background: #f5fbfd;
+}
+
+.team {
+  background: #ffffff;
+}
+
+.contact {
+  background: #f7f7f7;
+}
+
+.title {
+  color: #1f6b8b;
+  text-align: center;
+  font-size: 2em;
+}
+
+.subtitle {
+  color: #4ea6d4;
+  text-align: center;
+  font-size: 1.5em;
+  color: #4ea6d4;
+}
+
+.form {
+  max-width: 800px;
+}
+
+.container, .titleContainer, .form {
+  margin: 75px auto;
+}
+
+.technologyItem {
+  background: #ffffff;
+  padding: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.technologyItem:hover {
+  background: #f7f7f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.teamItem {
+  background: #f5fbfd;
+  text-align: center;
+  padding: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.itemTitle {
+  font-size: 1.5em;
+  color: #1f6b8b;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.itemSubtitle {
+  color: #1f6b8b;
+  text-align: center;
+}
+
+.itemContent {
+  color: #4ea6d4;
+  text-align: center;
+}
+
+.teamPhoto {
+  margin: auto;
+  width: 100px;
+  height: auto;
+  border: 3.5px solid #4ea6d4;
+  border-radius: 100px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background: #141414;
+  text-align: center;
+  padding: 50px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.footer {
+  background: #f5fbfd;
+  padding: 40px;
+  text-align: center;
+  border-top: 1px solid #bbe6f3;
+}
+
+.logo {
+  float: left;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header a {
+  margin: 0px 25px;
+  color: #4ea6d4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links {
+  float: right;
+}
+
+.button {
+  text-align: center;
+  margin: auto;
 }

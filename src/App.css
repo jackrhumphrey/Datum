@@ -89,6 +89,7 @@
   text-align: center;
   padding: 50px;
   display: flex;
+  overflow: hidden;
 }
 
 .padding {

@@ -11,12 +11,11 @@ import TechnologyItem from "./components/TechnologyItem";
 import TeamItem from "./components/TeamItem";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
-
 const theme = createMuiTheme({
   palette: {
     primary: {
       // light: will be calculated from palette.primary.main,
-      main: "#1f6b8b"
+      main: "#00567b"
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     }

@@ -44,7 +44,7 @@ body {
 }
 
 .rightactive {
-  width: 755px;
+  width: 855px;
 }
 
 .min {
@@ -56,6 +56,10 @@ body {
 .max {
   color: #72cee7;
   font-size: 2em;
+  margin: 0px 50px;
+}
+
+.links {
   margin: 0px 50px;
 }
 
